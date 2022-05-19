@@ -12,14 +12,15 @@
   background-color: aqua; 
 }
 
-.s-wrapper video {
+.s-wrapper video{
   position: fixed;
   width: 100%;
+
 }
 
 .s-wrapper .s-left-column {
   width: 100px;
-  height: 100%;  
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,8 +33,8 @@
 
 .s-wrapper .s-main-content{
   height: 100%;
-  width: 100%; 
-  padding-left: 130px;  
+  width: 100%;
+  padding-left: 130px;
   position: relative;
 }
 
@@ -44,14 +45,14 @@
   justify-content: flex-start;
 }
 
-.s-wrapper .s-main-content__bottom {
+.s-wrapper .s-main-content__bottom{
   height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.s-wrapper .s-main-content .s-logo img {
+.s-wrapper .s-main-content .s-logo img{
   margin-top: 50px;
   margin-left: 0;
   margin-bottom: 30px;
